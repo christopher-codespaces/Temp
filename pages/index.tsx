@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from "next/link"
 
 const Home: NextPage = () => {
   return (
@@ -10,7 +11,7 @@ const Home: NextPage = () => {
   <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
     <div className="flex h-16 items-center justify-between">
       <div className="md:flex md:items-center md:gap-12">
-        <a className="block text-teal-600" href="/">
+        <Link className="block text-teal-600" href="/">
           <span className="sr-only">Home</span>
           <svg
             className="h-8"
@@ -23,64 +24,64 @@ const Home: NextPage = () => {
               fill="currentColor"
             />
           </svg>
-        </a>
+        </Link>
       </div>
 
       <div className="hidden md:block">
         <nav aria-label="Global">
           <ul className="flex items-center gap-6 text-sm">
             <li>
-              <a
+              <Link
                 className="text-gray-500 transition hover:text-gray-500/75"
                 href="/"
               >
                 About
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a
+              <Link
                 className="text-gray-500 transition hover:text-gray-500/75"
                 href="/"
               >
                 Careers
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a
+              <Link
                 className="text-gray-500 transition hover:text-gray-500/75"
                 href="/"
               >
                 History
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a
+              <Link
                 className="text-gray-500 transition hover:text-gray-500/75"
                 href="/"
               >
                 Services
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a
+              <Link
                 className="text-gray-500 transition hover:text-gray-500/75"
                 href="/"
               >
                 Projects
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a
+              <Link
                 className="text-gray-500 transition hover:text-gray-500/75"
                 href="/"
               >
                 Blog
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
@@ -88,20 +89,20 @@ const Home: NextPage = () => {
       {/* Webflow */}
       <div className="flex items-center gap-4">
         <div className="sm:flex sm:gap-4">
-          <a
+          <Link
             className="rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white shadow"
             href="/"
           >
             Login
-          </a>
+          </Link>
 
           <div className="hidden sm:flex">
-            <a
+            <Link
               className="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600"
               href="/"
             >
               Register
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -243,7 +244,7 @@ const Home: NextPage = () => {
         </p>
 
         <div className="mt-6 flex justify-center gap-4 lg:justify-start">
-          <a
+          <Link
             className="text-gray-700 transition hover:text-gray-700/75"
             href=""
             target="_blank"
@@ -263,9 +264,9 @@ const Home: NextPage = () => {
                 clipRule="evenodd"
               />
             </svg>
-          </a>
+          </Link>
 
-          <a
+          <Link
             className="text-gray-700 transition hover:text-gray-700/75"
             href=""
             target="_blank"
@@ -285,9 +286,9 @@ const Home: NextPage = () => {
                 clipRule="evenodd"
               />
             </svg>
-          </a>
+          </Link>
 
-          <a
+          <Link
             className="text-gray-700 transition hover:text-gray-700/75"
             href=""
             target="_blank"
@@ -305,9 +306,9 @@ const Home: NextPage = () => {
                 d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"
               />
             </svg>
-          </a>
+          </Link>
 
-          <a
+          <Link
             className="text-gray-700 transition hover:text-gray-700/75"
             href=""
             target="_blank"
@@ -327,9 +328,9 @@ const Home: NextPage = () => {
                 clipRule="evenodd"
               />
             </svg>
-          </a>
+          </Link>
 
-          <a
+          <Link
             className="text-gray-700 transition hover:text-gray-700/75"
             href=""
             target="_blank"
@@ -349,7 +350,7 @@ const Home: NextPage = () => {
                 clipRule="evenodd"
               />
             </svg>
-          </a>
+          </Link>
         </div>
       </div>
 
@@ -361,39 +362,39 @@ const Home: NextPage = () => {
 
           <ul className="mt-6 space-y-1">
             <li>
-              <a
+              <Link
                 className="text-gray-700 transition hover:text-gray-700/75"
                 href="/"
               >
                 Marketing
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a
+              <Link
                 className="text-gray-700 transition hover:text-gray-700/75"
                 href="/"
               >
                 Graphic Design
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a
+              <Link
                 className="text-gray-700 transition hover:text-gray-700/75"
                 href="/"
               >
                 App Development
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a
+              <Link
                 className="text-gray-700 transition hover:text-gray-700/75"
                 href="/"
               >
                 Web Development
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -403,39 +404,39 @@ const Home: NextPage = () => {
 
           <ul className="mt-6 space-y-1">
             <li>
-              <a
+              <Link
                 className="text-gray-700 transition hover:text-gray-700/75"
                 href="/"
               >
                 About
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a
+              <Link
                 className="text-gray-700 transition hover:text-gray-700/75"
                 href="/"
               >
                 Careers
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a
+              <Link
                 className="text-gray-700 transition hover:text-gray-700/75"
                 href="/"
               >
                 History
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a
+              <Link
                 className="text-gray-700 transition hover:text-gray-700/75"
                 href="/"
               >
                 Our Team
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -445,30 +446,30 @@ const Home: NextPage = () => {
 
           <ul className="mt-6 space-y-1">
             <li>
-              <a
+              <Link
                 className="text-gray-700 transition hover:text-gray-700/75"
                 href="/"
               >
                 FAQs
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a
+              <Link
                 className="text-gray-700 transition hover:text-gray-700/75"
                 href="/"
               >
                 Contact
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a
+              <Link
                 className="text-gray-700 transition hover:text-gray-700/75"
                 href="/"
               >
                 Live Chat
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -482,16 +483,16 @@ const Home: NextPage = () => {
         <br />
 
         Created with
-        <a
+        <Link
           href=""
           className="text-gray-700 underline transition hover:text-gray-700/75"
-          >Laravel</a
+          >Laravel</Link
         >
         and
-        <a
+        <Link
           href=""
           className="text-gray-700 underline transition hover:text-gray-700/75"
-          >Laravel Livewire</a
+          >Laravel Livewire</Link
         >.
       </p>
     </div>
